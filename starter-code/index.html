@@ -5,21 +5,32 @@
   <meta charset="utf-8">
   <title>Memory Game</title>
   <!-- <link rel="stylesheet" href="cssReset.css"> -->
-  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Droid+Serif|Raleway:400,500,600,700" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<h1>Memory Game</h1>
+<header>
+	<h1>MEMORY GAME</h1>
+</header>
+<nav>
+	<a href="#">INSTRUCTIONS</a>
+	<a href="#">GAME</a>
+</nav>
 
-<h2>Instructions</h2>
-<p>Concentration, also known as Match Match, Memory, Pelmanism, Shinkei-suijaku, Pexeso, or Pairs, is a card game in which all of the cards are laid facedown on a surface and two cards are flipped face up over each turn. The object of the game is to turn over pairs of matching cards.</p>
+<MAIN>
+	<h2>INSTRUCTIONS</h2>
+	
+	<p>Concentration, also known as Match Match, Memory, Pelmanism, Shinkei-suijaku, Pexeso, or Pairs, is a card game in which all of the cards are laid facedown on a surface and two cards are flipped face up over each turn. The object of the game is to turn over pairs of matching cards.</p>
 
-<div class="board" id="game-board">
-</div>
+	<div id="game-board" class="board clearfix"></div>
+	<button id="reset">Reset</button>
+</MAIN>
 
-<footer>
-  <p>Created with <img src="http://loyloyloy.byethost6.com/images/croissant.png"> by <span>Mark G</span><p>
+<footer class="clearfix">
+  <p class="copyright">Copyright 2017</p>
+  <p class="message">Created with &hearts; by <span class="name">GA</span></p>
 </footer>
 
+<script src="main_3_1.js"></script>
 </body>
-<script src="main.js"></script>
 </html>

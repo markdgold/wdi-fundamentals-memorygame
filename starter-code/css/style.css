@@ -1,0 +1,93 @@
+/* This is a multi-line
+comment. Add your CSS code
+from Unit 1 - 5 below  */
+body{
+	text-align: center;
+	font-family: "raleway", sans-serif;
+	margin: 0;
+}
+h1{
+	color: white;
+	font-family: "Raleway", sans-serif;
+	font-weight: 400;
+	letter-spacing: 1px;
+	font-size: 45px;
+	margin: 0;
+}
+header{
+	background-color: #F15B31;
+	padding: 30px 20px 30px 20px;
+}
+nav{
+	
+	letter-spacing: 1px;
+	font-weight: 600;
+	font-size: 18px;
+	background-color: #00A6b3;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+a{
+	text-decoration: none;
+	color: white;
+	margin: 0 20px 0 20px;
+	border-bottom: 2px solid transparent;
+}
+a:hover{
+	border-color: white;
+}
+main{
+	width:850px;
+	margin:35px auto 35px auto;
+}
+h2{
+	color: #0D2C40;
+	letter-spacing: 1px;
+	font font-weight: 600;
+	font-size: 20px;
+}
+p{
+	font-family: "Droid Serif", serif;
+}
+.board{
+	height: 80%;
+	width: 100%;
+	display: inline-block;
+}
+
+img{
+	margin-top: 40px;
+	margin-right: 8px;
+	margin-left: 8px;
+}
+
+footer{
+	text-transform: uppercase;
+	padding-right: 20px;
+	padding-left: 20px;
+	background-color: #0d2C40;
+	color: white;
+	font-size: 14px;
+	letter-spacing: .08em;
+	font-weight: 500;
+}
+.copyright{
+	float: left;
+}
+.message{
+	float: right;
+}
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
+.name{
+	color: #F15b31
+	font-weight: 700;
+}
+
+
